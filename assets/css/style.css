@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Gelasio', sans-serif; */
+    /* font-family: 'Poppins', sans-serif; */
+    font-size: 10px;
+    font-weight: 400;
+    font-size: normal;
+    color: #081F32;
+    background-color: #fff;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.header-row {
+
+}
+
+/* first sextion */
+.main-section {
+     background-image: url("../imgs/mainbg.jpg");
+     min-height: 690px;
+     padding: 22rem 0 0;
+}
+
+.main-section-title {
+    font-size: 5.7rem;
+    max-width: 45rem;
+
+}
+
+
+.main-section-text {
+    font-size: 1.8rem;
+    max-width: 34rem;
+
+}
+
+@media screen and (max-width: 768px) {
+    .main-section-title {
+        font-size: 4.7rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .main-section-title {
+        font-size: 2.7rem;
+    }
+
+}
+
+/* holidays */
+.holidays {
+    display: flex;
+}
+
+.holidaya-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.holidays-title {
+
+}
