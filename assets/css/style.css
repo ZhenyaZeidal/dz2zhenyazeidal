@@ -22,7 +22,7 @@ html {
 }
 
 .header {
-    position:absolute;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -30,28 +30,340 @@ html {
 }
 
 .header-row {
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+
+.logo-link {
+    text-decoration: none;
+    position: relative;
+}
+
+
+
+.name {
+    font-family: Gelasio;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 150%;
+    /* identical to box height, or 36px */
+    color: #081F32;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+
+.nav-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-title > li {
+    padding: 15px;
+    list-style-type: none; 
+}
+
+.main-nav-home {
+    font-family: Gelasio;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+    color: #1B75BB;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-decoration: none;    
+    font-family: Gelasio;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+    color: #081F32;
+    opacity: 0.7;
+}
+
+p .book {
+    list-style: none;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color:#1B75BB;
+    padding: 15px;
+    font-family: Gelasio;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+    color: #FFFFFF;
+    
+}
+
+.book:hover {
+    color: red;
+    
+}
+
 
 /* first sextion */
 .main-section {
      background-image: url("../imgs/mainbg.jpg");
      min-height: 690px;
-     padding: 22rem 0 0;
+     padding: 220px 0 20px;
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+}
+
+.serenity {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 150%;
+    /* identical to box height, or 30px */
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #1B75BB;
+    opacity: 0.8;
+    padding-bottom: 50px;
+}
+
+.home {
+    font-family: Gelasio;
+    font-style: normal;
+    font-weight: 600px;
+    font-size: 5.7rem;
+    line-height: 120%;
+    color: #1B75BB;
+}
+
+.main-block {
+    max-width: 456px;
+    max-height: 456px;
 }
 
 .main-section-title {
     font-size: 5.7rem;
-    max-width: 45rem;
-
+    max-width: 450px;
+    padding-bottom: 50px;
+    font-family: Gelasio;
+    font-style: normal;
+    line-height: 120%;
+    /* or 68px */
+    color: #081F32;
 }
-
 
 .main-section-text {
     font-size: 1.8rem;
-    max-width: 34rem;
-
+    max-width: 340px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 160%;
+    color: #081F32;
+    opacity: 0.6;
+    padding-bottom: 50px;
 }
+
+
+.read {
+    list-style-type: none;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #1B75BB;
+    padding: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 160%;
+    /* identical to box height, or 26px */
+    color: #FFFFFF;
+    margin-bottom: 100px;
+}
+
+.read:hover {
+    box-shadow: inset 0 0 0 5px red;
+}
+
+
+/* find */
+.find {
+    padding-bottom: 100px;
+}
+
+.additional {
+    position: relative;
+    top: -20px;
+    left: 0px;
+    background: linear-gradient(45deg, #fff, #c0c0c0);
+    border-radius: 10px;
+    max-width: 687px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-find {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+
+.nav-find > li {
+    padding: 30px;
+    list-style-type: none;
+    border-right: 2px solid #808080;
+}
+
+.cheeks {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 160%;
+    /* identical to box height, or 26px */
+    color: #081F32;
+    padding-bottom: 5px;
+}
+
+.explain {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 160%;
+    /* identical to box height, or 26px */
+    color: #081F32;
+    opacity: 0.8;
+}
+
+.findroom {
+    list-style-type: none;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #1B75BB;
+    padding: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 160%;
+    /* identical to box height, or 26px */
+    color: #FFFFFF;
+    margin-bottom: 100px;
+    margin-right: 20px;
+}
+
+
+/* holidays */
+.holidays {
+    display: flex;
+    padding: 30px;
+}
+
+.holidaya-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.holidays-images {
+    position: relative;
+}
+
+
+.holidays-image-main {
+    position: relative;
+    z-index: 1;
+}
+
+.holidays-image-second {
+    position: absolute;
+    top: -50px;
+    right: -60px;
+}
+
+
+.holidays-image-square {
+    position: absolute;
+    left: -50px;
+    bottom: -50px;
+}
+
+
+.holidays-contant {
+    max-width: 100%;
+    padding: 37px 100px;
+}
+
+.dream {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 150%;
+    /* identical to box height, or 30px */
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #1B75BB;
+    opacity: 0.8;
+    padding-bottom: 20px;
+}
+
+.holidays-title {
+    font-family: Gelasio;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3.2rem;
+    line-height: 140%;
+    /* or 45px */
+    color: #081F32;
+    padding-bottom: 30px;
+}
+
+.view {
+    list-style-type: none;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #1B75BB;
+    padding: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 160%;
+    /* identical to box height, or 26px */
+    color: #FFFFFF;
+    margin-bottom: 100px;
+}
+
+
+.view:hover {
+    border-radius: 70%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 768px) {
     .main-section-title {
@@ -63,20 +375,5 @@ html {
     .main-section-title {
         font-size: 2.7rem;
     }
-
-}
-
-/* holidays */
-.holidays {
-    display: flex;
-}
-
-.holidaya-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.holidays-title {
 
 }
