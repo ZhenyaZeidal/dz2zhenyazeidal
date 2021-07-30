@@ -38,22 +38,6 @@ html {
 
 .logo-link {
     text-decoration: none;
-    position: relative;
-}
-
-
-
-.name {
-    font-family: Gelasio;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 2.4rem;
-    line-height: 150%;
-    /* identical to box height, or 36px */
-    color: #081F32;
-    position: absolute;
-    top: 50px;
-    left: 20px;
 }
 
 .nav-title {
@@ -218,10 +202,29 @@ p .book {
     padding-right: 50px;
 }
 
-.nav-find > li {
+.find-border {
+    
     padding: 30px;
     list-style-type: none;
-    border-right: 2px solid #808080;
+}
+
+.cheeks::after {
+    content: " ";
+    background: #33CCFF;
+    width: 2px;
+    height: 25px;
+    float: right;
+    margin-right: 10px;
+    
+}
+
+.explain::after {
+    content: " ";
+    background: #33CCFF;
+    width: 2px;
+    height: 25px;
+    float: right;
+    margin-right: 10px;
 }
 
 .cheeks {
@@ -268,6 +271,7 @@ p .book {
 .holidays {
     display: flex;
     padding: 30px;
+    margin-bottom: 70px;
 }
 
 .holidaya-row {
@@ -349,6 +353,38 @@ p .book {
 
 .view:hover {
     border-radius: 70%;
+}
+
+
+.container-why {
+    max-width: 849px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.choose {
+    font-family: Gelasio;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3.2rem;
+    line-height: 140%;
+    /* identical to box height, or 45px */
+    color: #081F32;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+.choose-description {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 160%;
+    /* or 29px */
+    text-align: center;
+    color: #081F32;
+    opacity: 0.6;
 }
 
 
