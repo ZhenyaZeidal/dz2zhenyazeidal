@@ -373,8 +373,8 @@ p .book {
     }
 
     .holidays-image-second {
-        
         right: 50px;
+    }
         
 }
 
@@ -415,6 +415,14 @@ p .book {
     text-align: center;
     color: #081F32;
     opacity: 0.6;
+}
+
+/* strength */
+
+.strength-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
