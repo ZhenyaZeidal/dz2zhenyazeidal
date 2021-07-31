@@ -507,6 +507,9 @@ h3 + p {
         display: block;
     }
 
+    .view {
+        margin-bottom: 15px;
+    }
 }
 
 
