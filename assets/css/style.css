@@ -196,6 +196,7 @@ p .book {
     align-items: center;
 }
 
+
 .nav-find {
     display: flex;
     justify-content: space-between;
@@ -203,28 +204,8 @@ p .book {
 }
 
 .find-border {
-    
     padding: 30px;
     list-style-type: none;
-}
-
-.cheeks::after {
-    content: " ";
-    background: #33CCFF;
-    width: 2px;
-    height: 25px;
-    float: right;
-    margin-right: 10px;
-    
-}
-
-.explain::after {
-    content: " ";
-    background: #33CCFF;
-    width: 2px;
-    height: 25px;
-    float: right;
-    margin-right: 10px;
 }
 
 .cheeks {
@@ -355,6 +336,9 @@ p .book {
     border-radius: 70%;
 }
 
+.why{
+    padding-bottom: 70px;
+}
 
 .container-why {
     max-width: 849px;
@@ -386,6 +370,9 @@ p .book {
     color: #081F32;
     opacity: 0.6;
 }
+
+
+
 
 
 
