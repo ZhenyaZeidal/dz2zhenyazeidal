@@ -415,6 +415,8 @@ p .book {
     text-align: center;
     color: #081F32;
     opacity: 0.6;
+    display: block;
+    margin: auto;
 }
 
 /* strength */
@@ -468,7 +470,24 @@ h3 + p {
     /* or 29px */
     text-align: center;
     color: #081F32;
- opacity: 0.6;
+    opacity: 0.6;
+    
+}
+
+/* BOOK */
+
+.book {
+    margin-top: 50px;
+}
+
+.book-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bookview {
+    margin-bottom: 30px;
 }
 
 
