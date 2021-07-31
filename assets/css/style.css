@@ -297,6 +297,8 @@ p .book {
     position: relative;
     z-index: 1;
     max-width: 63vw;
+    display: block;
+    margin: auto;
 }
 
 .holidays-image-second {
@@ -304,6 +306,8 @@ p .book {
     top: -50px;
     right: -45px;
     max-width: 63vw;
+    display: block;
+    margin: auto;
 }
 
 
@@ -312,6 +316,8 @@ p .book {
     left: -50px;
     bottom: -50px;
     max-width: 23vw;
+    display: block;
+    margin: auto;
 }
 
 
@@ -486,11 +492,20 @@ h3 + p {
     align-items: center;
 }
 
+.book-nav > div {
+    margin: 0 10px 0 0;
+}
+
 .bookview {
     margin-bottom: 30px;
 }
 
+@media screen and (max-width: 1024px) {
+    .book-nav {
+        display: block;
+    }
 
+}
 
 
 
