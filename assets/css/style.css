@@ -99,12 +99,11 @@ p .book {
 @media screen and (max-width: 767px) {
     .header-row {
         display: block;
-        margin: 0 0 30rem;
+        
     }
-    .book {
-        margin: 0 0 20rem;
-    }
+    
 }
+
 
 
 /* first sextion */
@@ -372,6 +371,11 @@ p .book {
     .holidaya-row {
         display: block;
     }
+
+    .holidays-image-second {
+        
+        right: 50px;
+        
 }
 
 
