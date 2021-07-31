@@ -21,6 +21,8 @@ html {
     padding: 0 15px;
 }
 
+/* HEADER */
+
 .header {
     position: absolute;
     top: 0;
@@ -91,8 +93,17 @@ p .book {
 }
 
 .book:hover {
-    color: red;
-    
+    color: red;    
+}
+
+@media screen and (max-width: 767px) {
+    .header-row {
+        display: block;
+        margin: 0 0 30rem;
+    }
+    .book {
+        margin: 0 0 20rem;
+    }
 }
 
 
@@ -178,6 +189,19 @@ p .book {
     box-shadow: inset 0 0 0 5px red;
 }
 
+@media screen and (max-width: 768px) {
+    .main-section-title {
+        font-size: 4.7rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .main-section-title {
+        font-size: 2.7rem;
+    }
+
+}
+
 
 /* find */
 .find {
@@ -247,7 +271,11 @@ p .book {
     margin-right: 20px;
 }
 
-
+@media screen and (max-width: 768px) {
+    .additional {
+        display: block;
+    }
+}
 /* holidays */
 .holidays {
     display: flex;
@@ -269,12 +297,14 @@ p .book {
 .holidays-image-main {
     position: relative;
     z-index: 1;
+    max-width: 63vw;
 }
 
 .holidays-image-second {
     position: absolute;
     top: -50px;
-    right: -60px;
+    right: -45px;
+    max-width: 63vw;
 }
 
 
@@ -282,6 +312,7 @@ p .book {
     position: absolute;
     left: -50px;
     bottom: -50px;
+    max-width: 23vw;
 }
 
 
@@ -336,6 +367,17 @@ p .book {
     border-radius: 70%;
 }
 
+
+@media screen and (max-width: 1024px) {
+    .holidaya-row {
+        display: block;
+    }
+}
+
+
+
+/* WHY */
+
 .why{
     padding-bottom: 70px;
 }
@@ -388,15 +430,3 @@ p .book {
 
 
 
-@media screen and (max-width: 768px) {
-    .main-section-title {
-        font-size: 4.7rem;
-    }
-}
-
-@media screen and (max-width: 425px) {
-    .main-section-title {
-        font-size: 2.7rem;
-    }
-
-}
