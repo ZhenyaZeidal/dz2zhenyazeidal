@@ -276,6 +276,14 @@ p .book {
     .additional {
         display: block;
     }
+    
+}
+
+
+@media screen and (max-width: 767px) {
+    .nav-find {
+        display: block;
+    }
 }
 /* HOLIDAYS */
 .holidays {
@@ -429,12 +437,6 @@ p .book {
 
 /* strength */
 
-.strength-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .strength-nav > ul {
     display: flex;
     justify-content: center;
@@ -482,10 +484,20 @@ h3 + p {
     
 }
 
+
+@media screen and (max-width: 1023px) {
+
+    .strength-nav > ul {
+        display: block;
+    }
+        
+}
+
 /* BOOK */
 
 .book {
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .book-nav {
@@ -498,11 +510,72 @@ h3 + p {
     margin: 0 10px 0 0;
 }
 
+.lux {
+    position: relative;
+}
+
+.imgrooms {
+    max-width: 100%;
+}
+
+.booklux {
+    position: absolute;
+    bottom: 0px;
+    padding: 20px;
+    background: rgba(226, 226, 226, 0.4);
+    backdrop-filter: blur(10px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 10px;
+}
+
+.onechoise {
+    font-family: Gelasio;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    /* identical to box height, or 29px */
+    color: #081F32;
+    margin-bottom: 20px;
+}
+
+.room {
+    margin-left: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    /* or 22px */
+    color: #081F32;
+    opacity: 0.8;
+}
+
 .bookview {
     margin-bottom: 30px;
 }
 
-@media screen and (max-width: 1024px) {
+.booktap {
+    width: 105px;
+    height: 41px;
+    left: 843px;
+    top: 2272px;
+    background: #1B75BB;
+    border-radius: 5px;
+    padding: 15px;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 160%;
+    color: #FFFFFF;
+    
+}
+
+ 
+
+@media screen and (max-width: 1023px) {
     .book-nav {
         display: block;
     }
@@ -513,6 +586,117 @@ h3 + p {
 }
 
 
+/* OPINION */
+.say {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.what {
+    font-family: Gelasio;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 140%;
+    /* identical to box height, or 45px */
+    color: #081F32;
+    
+}
+
+.all {
+    
+    width: 133px;
+    height: 62px;
+    left: 1237px;
+    top: 3210px;
+    background: #1B75BB;
+    border-radius: 5px;
+    list-style-type: none;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 15px;  
+    font-family: Roboto; 
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160%;
+    
+}
+
+.client {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.client > li {
+    list-style-type: none;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 30px rgba(199, 199, 199, 0.25);
+    border-radius: 10px;
+       
+}
+
+.img-clients {
+    display: block;
+    margin: auto;
+}
+
+.add-clients {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 160%;
+    /* or 29px */
+    text-align: center;
+    color: hsl(207, 72%, 11%);
+    opacity: 0.6;
+    margin-bottom: 10px;
+}   
+
+.name-clients {
+    font-family: Gelasio;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    /* identical to box height, or 30px */
+    text-align: center;
+    color: #081F32;
+    opacity: 0.9;
+}
+
+.address-client {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 160%;
+    /* or 22px */
+    text-align: center;
+    color: #081F32;
+    opacity: 0.7;
+}
+
+
+@media screen and (max-width: 1023px) {
+
+    .say {
+        display: block;
+    }
+
+    .what {
+        margin-bottom: 15px;
+    }
+     
+    .client {
+        display: block;
+    }
+}
 
 
 
