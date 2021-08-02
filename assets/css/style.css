@@ -96,7 +96,7 @@ p .book {
     color: red;    
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1024px) {
     .header-row {
         display: block;
         
@@ -512,6 +512,7 @@ h3 + p {
 
 .lux {
     position: relative;
+    
 }
 
 .imgrooms {
@@ -575,7 +576,7 @@ h3 + p {
 
  
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
     .book-nav {
         display: block;
     }
@@ -583,10 +584,14 @@ h3 + p {
     .view {
         margin-bottom: 15px;
     }
+
 }
 
 
 /* OPINION */
+.opinion {
+    margin-bottom: 40px;
+}
 .say {
     display: flex;
     justify-content:space-between;
@@ -637,6 +642,7 @@ h3 + p {
     box-sizing: border-box;
     box-shadow: 0px 4px 30px rgba(199, 199, 199, 0.25);
     border-radius: 10px;
+    margin: 10px;
        
 }
 
@@ -698,8 +704,153 @@ h3 + p {
     }
 }
 
+/* FOOTER */
+
+.mailaddress {
+    margin-bottom: 100px;
+}
+
+.stay {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    /* identical to box height, or 30px */
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #081F32;
+    opacity: 0.8;
+    text-align: center;
+
+}
+
+.join {
+    font-family: Gelasio;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 140%;
+    /* identical to box height, or 45px */
+    text-align: center;
+    color: #081F32;
+    margin-bottom: 15px;
+}
+
+.mail-tap {
+    text-align: center;
+}
+
+.mail {
+    padding: 20px 85px 20px 20px;
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+    color: #081F32;
+    opacity: 0.5;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+      
+}
+
+.send {
+    position: absolute;
+    background: #1B75BB;
+    border-radius: 5px;
+    padding: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-bottom: 70px;
+
+}
 
 
+.end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+
+.travel {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+    color: #081F32;
+    opacity: 0.7;
+    max-width: 257px;
+    margin-bottom: 15px;
+}
+
+.email {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    /* identical to box height, or 26px */
+    letter-spacing: 0.06em;
+    color: #081F32;
+    opacity: 0.7;
+}
+
+.footer-nav > li {
+    list-style-type: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+    color: #081F32;
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.home-pages {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    /* identical to box height, or 30px */
+    color: #081F32;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1440px) {
+
+    .end {
+        display: block;
+    }
+
+    .footer-end {
+        margin-bottom: 20px;
+    }
+    
+}
 
 
 
