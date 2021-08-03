@@ -471,23 +471,14 @@ h3 + p {
 /* BOOK */
 
 .book {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    
+    margin-bottom: 10px;
 }
 
 .book-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.book-nav > div {
-    
-    
-}
-
-.about-price {
-    max-width: 50%;
 }
 
 .lux {
