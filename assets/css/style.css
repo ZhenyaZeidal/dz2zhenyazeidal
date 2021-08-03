@@ -359,8 +359,7 @@ p .booknow {
     .holidaya-row {
         display: block;
     }
-
-            
+          
 }
 
 @media screen and (max-width: 768px) {
@@ -464,8 +463,7 @@ h3 + p {
     
     .strength-nav-main >li {
         margin-bottom: 20px;
-        
-        
+            
     }
         
 }
